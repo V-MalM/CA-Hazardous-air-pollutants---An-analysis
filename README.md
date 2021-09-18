@@ -1,4 +1,4 @@
-## Hazardous Air Polluants (HAP)
+## Hazardous Air Polluants (HAP) in CA
 
 Air pollutants are substances found in the atmosphere that are harmful
 to human health and other living organisms. Air pollutants can be found
@@ -13,7 +13,7 @@ Examples of HAP include benzene, which is found in gasoline, mercury,
 lead compounds, methylene chloride etc. The EPA is currently working to
 reduce air emissions of 187 HAP to the environment.
 
-**Our Analysis**
+## Our Analysis
 
 Our analysis is based on daily HAP recorded different states in the US
 from 1990 – 2017. The data was then grouped in 2: Carbon HAP and
@@ -32,7 +32,7 @@ the following questions.
 
   - What populations were at risk?
 
-**Cleaning our data**
+## Cleaning our data
 
 Our dataset was obtained from Kaggle. The source dataset was made up of
 a total of 8 million+ rows and 29 columns.
@@ -67,7 +67,7 @@ conversions.
 “first\_max\_value\_in\_NG” – to convert the “units\_of\_measure” for
 daily recordings from microgram to nanogram etc.
 
-**Summary Statistics**
+## Summary Statistics
 
 The summary statistics was performed on both the source dataset from
 Kaggle (8 million+) and the cleaned data for the state of California,
@@ -82,7 +82,7 @@ the state of California, carbon HAP and non-carbon HAP dataset is below.
 | Standard Deviation | 13.62156       | 15.968621          | 11.348834              | 14.876403          |
 | Maximum Value      | 20000.000000   | 9051.100000        | 1112.300000            | 9051.100000        |
 
-**Data Visualization**
+## Data Visualization
 
 As stated above the dataset was subcategorized into 2, Carbon based HAP
 and Non-carbon-based HAP. Using matplotlib, we have a bar plot
@@ -90,7 +90,9 @@ with an overlapping line plot of the 2 subcategories for the
 state of California from 1990-2017. The average HAP levels of the of the
 data were used for this analysis.
 
-**Non-carbon-based HAP:**
+<hr>
+
+## Non-carbon-based HAP
 
 ![](plot_images/Non_Carbon_HAP_Yearly.jpeg)
 
@@ -143,8 +145,9 @@ across all counties.
 
 </details>
 <br />
+<hr>
 
-**Carbon based HAP:**
+## Carbon based HAP
 
 ![](plot_images/Carbon_HAP_Yearly.jpeg)
 
@@ -175,9 +178,9 @@ less than 50% of the mean.
 
 </details>
 <br />
+<hr>
 
-**<span class="underline">Are the HAP levels increasing or decreasing
-for each county? And What population is currently at risk?</span>**
+**Are the HAP levels increasing or decreasing for each county? And What population is currently at risk?**
 
 After the analysis of the counties with the highest HAP levels/
 emissions we the decided to further explore which HAPs were emitted by
@@ -185,7 +188,7 @@ the counties that had the highest emissions to give us an idea of the
 population at risk. We selected years with the most increase or decrease
 in HAP levels to help with our exploration.
 
-**Non-Carbon HAP:**
+## Non-Carbon HAP:
 
 ![](plot_images/tble1.jpg)
 
@@ -197,7 +200,7 @@ And below is the snapshot for the top 3 counties with the most
 non-carbon HAP and the top 3 HAP for each county for 2017 in the form of
 a pie chart.
 
-Non-carbon HAPs for 2017
+**Non-carbon HAPs for 2017**
 
 ![](plot_images/top_counties_of_year/top_County_NC_2017_pie.jpeg)
 
@@ -223,7 +226,7 @@ counties. All population are at risk as they can develop illness such as
 metal fume disease, Pontiac and even Parkinson-like tremors but the
 population with auto-immune diseases, cancer etc.
 
-**Carbon HAP:**
+**Carbon HAP**
 
 ![](plot_images/tble2.jpg)
 
@@ -235,7 +238,7 @@ And below is the snapshot for the top 3 counties with the most carbon
 HAP and the top 3 HAP for each county for 2008 in the form of a pie
 chart.
 
-Carbon HAPs for 2008
+**Carbon HAPs for 2008**
 
 <table><tr>
 <td><img src="plot_images/top_counties_of_year/top_County_C_2008_pie.jpeg"></td>
@@ -263,7 +266,7 @@ HAP affects all population are affected.
 These HAPs also affect the air quality and gives rise to fog/ smog,
 allergies and other respiratory diseases.
 
-**<span class="underline">What populations were at risk?</span>**
+**What populations were at risk?**
 
 ### Heatmaps for Carbon and Non-Carbon Haps
 
