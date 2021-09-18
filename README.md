@@ -13,6 +13,13 @@ Examples of HAP include benzene, which is found in gasoline, mercury,
 lead compounds, methylene chloride etc. The EPA is currently working to
 reduce air emissions of 187 HAP to the environment.
 
+
+## Please Find:
+*  Download [Presentation](HAP_Presentation.pptx)
+*  Download [Project Detailed Report](HazardousAirPolluants_Summary.docx)  
+*  View [Analysis code](analysis) 
+
+
 ## Our Analysis
 
 Our analysis is based on daily HAP recorded different states in the US
