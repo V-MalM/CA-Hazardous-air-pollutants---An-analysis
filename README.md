@@ -14,10 +14,10 @@ lead compounds, methylene chloride etc. The EPA is currently working to
 reduce air emissions of 187 HAP to the environment.
 
 
-## Please Find:
+## Important Files / Folders:
 *  Download [Presentation](HAP_Presentation.pptx)
 *  Download [Project Detailed Report](HazardousAirPolluants_Summary.docx)  
-*  View [Analysis code](analysis) 
+*  View samples of [Cleaning and Analysis code](analysis) 
 
 
 ## Our Analysis
