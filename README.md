@@ -25,7 +25,7 @@ reduce air emissions of 187 HAP to the environment.
 
 ## Our Analysis
 
-Our analysis is based on daily HAP recorded different states in the US
+Our analysis is based on daily HAP recorded in the state of CA
 from 1990 – 2017. The data was then grouped in 2: Carbon HAP and
 Non-carbon HAP.
 
