@@ -188,7 +188,7 @@ the counties that had the highest emissions to give us an idea of the
 population at risk. We selected years with the most increase or decrease
 in HAP levels to help with our exploration.
 
-## Non-Carbon HAP:
+## Non-Carbon HAP
 
 ![](plot_images/tble1.jpg)
 
@@ -226,7 +226,7 @@ counties. All population are at risk as they can develop illness such as
 metal fume disease, Pontiac and even Parkinson-like tremors but the
 population with auto-immune diseases, cancer etc.
 
-**Carbon HAP**
+## Carbon HAP
 
 ![](plot_images/tble2.jpg)
 
