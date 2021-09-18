@@ -19,6 +19,9 @@ reduce air emissions of 187 HAP to the environment.
 *  Download [Project Detailed Report](HazardousAirPolluants_Summary.docx)  
 *  View samples of [Cleaning and Analysis code](data_clean_and_analysis) 
 
+## Technologies Used:
+*  Python, Pandas, Matplotlib
+*  Data source : csv file
 
 ## Our Analysis
 
