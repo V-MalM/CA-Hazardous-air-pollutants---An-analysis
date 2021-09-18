@@ -1,4 +1,4 @@
-## Hazardous Air Polluants (HAP) in CA
+## Hazardous Air Polluants (HAP) in CA - An Analysis
 
 Air pollutants are substances found in the atmosphere that are harmful
 to human health and other living organisms. Air pollutants can be found
