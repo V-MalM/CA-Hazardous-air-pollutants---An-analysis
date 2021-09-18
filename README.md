@@ -17,7 +17,7 @@ reduce air emissions of 187 HAP to the environment.
 ## Important Files / Folders:
 *  Download [Presentation](HAP_Presentation.pptx)
 *  Download [Project Detailed Report](HazardousAirPolluants_Summary.docx)  
-*  View samples of [Cleaning and Analysis code](analysis) 
+*  View samples of [Cleaning and Analysis code](data_clean_and_analysis) 
 
 
 ## Our Analysis
