@@ -1,4 +1,4 @@
-**<span class="underline">Hazardous Air Polluants (HAP)</span>**
+## Hazardous Air Polluants (HAP)
 
 Air pollutants are substances found in the atmosphere that are harmful
 to human health and other living organisms. Air pollutants can be found
@@ -13,7 +13,7 @@ Examples of HAP include benzene, which is found in gasoline, mercury,
 lead compounds, methylene chloride etc. The EPA is currently working to
 reduce air emissions of 187 HAP to the environment.
 
-**<span class="underline">Our Analysis</span>**
+**Our Analysis**
 
 Our analysis is based on daily HAP recorded different states in the US
 from 1990 – 2017. The data was then grouped in 2: Carbon HAP and
@@ -32,7 +32,7 @@ the following questions.
 
   - What populations were at risk?
 
-**<span class="underline">Cleaning our data</span>**
+**Cleaning our data**
 
 Our dataset was obtained from Kaggle. The source dataset was made up of
 a total of 8 million+ rows and 29 columns.
@@ -67,7 +67,7 @@ conversions.
 “first\_max\_value\_in\_NG” – to convert the “units\_of\_measure” for
 daily recordings from microgram to nanogram etc.
 
-**<span class="underline">Summary Statistics</span>**
+**Summary Statistics**
 
 The summary statistics was performed on both the source dataset from
 Kaggle (8 million+) and the cleaned data for the state of California,
@@ -82,11 +82,11 @@ the state of California, carbon HAP and non-carbon HAP dataset is below.
 | Standard Deviation | 13.62156       | 15.968621          | 11.348834              | 14.876403          |
 | Maximum Value      | 20000.000000   | 9051.100000        | 1112.300000            | 9051.100000        |
 
-**<span class="underline">Data Visualization</span>**
+**Data Visualization**
 
 As stated above the dataset was subcategorized into 2, Carbon based HAP
-and Non-carbon-based HAP. Using matplotlib, we have a bar plot/ chart
-with an overlapping line plot/ chart of the 2 subcategories for the
+and Non-carbon-based HAP. Using matplotlib, we have a bar plot
+with an overlapping line plot of the 2 subcategories for the
 state of California from 1990-2017. The average HAP levels of the of the
 data were used for this analysis.
 
@@ -94,23 +94,21 @@ data were used for this analysis.
 
 ![](plot_images/Non_Carbon_HAP_Yearly.jpeg)
 
-From the chart of the average first max values through the years for
-California, we see a decline in HAP levels in general for
-non-carbon-based HAPs from 1990-1993, after 1993 we see an increase in
+From the chart, we see a decline in HAP levels for non-carbon-based HAPs 
+from 1990-1993, after 1993 we see an increase in
 the non-carbon HAP levels until 2003 where a huge drop is observed. The
 pattern follows the drop and rise but it is interesting to note the
 great increase in 2017. Our analysis is going to explore the data by
-looking at counties from the beginning/ starting date of the data 1990
-which will be base of our data to the end date of the data 2017, we are
+looking at counties from the start date of the data 1990
+which will be base of our data to the end date of the data in 2017. We are
 going to find which counties contributed to the spike, what non-carbon
 HAPs were emitted and what cities within the counties emitted the HAPs
 using a heatmap.
 
-**<span class="underline">What are the best and worst counties for
-carbon and non-carbon HAPs in CA?</span>**
+**What are the best and worst counties for non-carbon and carbon HAPs in CA?**
 
 From the summary statistics table above, we see the non-carbon HAP have
-a higher mean than the carbon HAP which is better considering carbon
+a higher mean than the carbon HAP which is better, considering carbon
 HAPs are much more influential in causing harm to the people and the
 environment in general.
 
@@ -267,7 +265,7 @@ allergies and other respiratory diseases.
 
 **<span class="underline">What populations were at risk?</span>**
 
-# Heatmaps for Carbon and Non-Carbon Haps
+### Heatmaps for Carbon and Non-Carbon Haps
 
 ![](plot_images/Picture1.gif)
 
